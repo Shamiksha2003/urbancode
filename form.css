@@ -1,0 +1,25 @@
+div{
+    background-color: aqua;
+    margin: 5%;
+    height: 50%;
+    width: 50%;
+}
+
+h2{
+    align-items: center;
+    text-align: center;
+}
+h4{
+    align-items: left;
+    text-align: left;
+    margin-right: 5px;
+    padding-left: 15px;
+}
+h5{
+    align-items: center;
+    text-align: center;
+}
+button{
+    align-items: center;
+    text-align: center;
+}
