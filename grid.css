@@ -1,0 +1,88 @@
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(221, 18, 69);
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(45, 211, 211);
+    border: 2px  black;
+    border-radius: 15px;
+}
+
+.box {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.box1 {
+    background-color: lightskyblue;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.box2 {
+    background-color: lightgreen;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.box3 {
+    background-color: lightyellow;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.box4 {
+    background-color: lightpink;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.header {
+    background-color: palevioletred;
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+
+.body {
+    background-color: limegreen;
+    grid-column: 2;
+    grid-row: 2/span 2;
+}
+
+.footer {
+    background-color: lightsalmon;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.box5 {
+    background-color: crimson;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.box6 {
+    background-color: yellow;
+    grid-column: 3;
+    grid-row: 2/span 2;
+    border-radius: 50%;
+}
+
+.box7 {
+    background-color: lightseagreen;
+    grid-column: 3;
+    grid-row: 4;
+}

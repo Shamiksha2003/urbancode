@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e43737;
+}
+
+.product-container {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-area {
+    width: 50%;
+    height: 50%;
+    background-image: url('https://i.etsystatic.com/24206136/r/il/05e6b3/2752684536/il_fullxfull.2752684536_lkz4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #1c81f3;
+}
+
+.button-bar {
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+
+.btn {
+    flex: 1;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.add-to-cart {
+    background-color: #ff9900;
+}
+
+.add-to-cart:hover {
+    background-color: #e68a00;
+}
+
+.buy-now {
+    background-color: #ff502b;
+}
+
+.buy-now:hover {
+    background-color: #e64524;
+}
+
+.icon {
+    margin-right: 8px;
+    font-size: 18px;
+}
