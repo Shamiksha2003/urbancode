@@ -2,7 +2,7 @@ const product = {
     id: 'P1234',
     name: 'Kurti Set',
     price: 500,
-    qty: 1
+    qty: 1,
 };
 
 let cart = [];
